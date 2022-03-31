@@ -16,8 +16,6 @@ function change() {
     red_walk.style.backgroundColor = "rgb(50, 0, 0)";
     if (i%60 <= 20) {
         setTimeout(function(){
-            car_1.style.transition = "1.5s"
-            car_2.style.transition = "1.5s"
             car_2.style.top = "100vh"
             car_1.style.top = "-20vh"
             walk.style.left = `${62.25 - (i%60)*1.25 - 5}%`
