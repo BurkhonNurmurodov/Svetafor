@@ -18,6 +18,8 @@ function change() {
         setTimeout(function(){
             car_2.style.top = "100vh"
             car_1.style.top = "-20vh"
+            car_1.style.transation = "1s"
+            car_2.style.transation = "1s"
             walk.style.left = `${62.25 - (i%60)*1.25 - 5}%`
             
         },1);
