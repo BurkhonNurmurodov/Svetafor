@@ -40,8 +40,6 @@ function change() {
     else{
         green.style.backgroundColor = "green"
         red_walk.style.backgroundColor = "red"
-        car_1.style.transition = ".1s"
-        car_2.style.transition = ".1s"
         car_1.style.top = `${(i%60 - 40)*10-20}vh`
         car_2.style.top = `${(60 - i%60)*10 - 100}vh`
     }
